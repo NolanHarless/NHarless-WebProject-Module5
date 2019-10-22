@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#wrapper{
+    background-color: white;
+    margin: auto;
+    width: 75%;
+    padding: 25px;
+}
+.logo{
+    float: left;
+    font-size: 2.5em;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0;
+}
+.navigation-bar ul{
+    float: right;
+    vertical-align: middle;
+    list-style-type: none;    
+}
+.navigation-bar ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.navigation-bar ul li a{
+    font-size: 1.25em;
+    vertical-align: middle;
+    text-decoration: none;
+    color: blue;
+    padding: 20px 15px 20px 15px;
+    transition: color .25s ease-in-out;
+}
+.navigation-bar ul li a:hover{
+    cursor: pointer;
+    color: #33B2FF;
+    transition: color .25s ease-in-out;
+}
+.blue-text{
+    color: blue;
+}
+.white-space{
+    height: 25px;
+    background-color: #fff;
+    display: block;
+}
+.footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.padding-space{
+    padding: 25px;
+}
+.projects{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.bio-header{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.project-tiles tr td{
+    vertical-align: middle;
+    padding: 15px;
+}
+.project-tiles tr td img{
+    border-radius: 10px; 
+    height: auto;
+    width: 300px;
+}
+.bio-button{
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    border:0px solid #000;
+}
+.bio-button:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+.bio-table{
+    margin: auto;
+}
+.bio-table tr td{
+    padding: 10px;
+}
+.bio-table tr td img{
+    border-radius: 10px;
+}
+.link-white{
+    color: white;
+}
+.styled-link{
+    font-weight: bold;
+    text-decoration: none;
+}
+@media only screen and (max-width: 700px) {
+    #wrapper{
+        width: 90%;
+    }
+    .project-tiles tr td img{
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 150px;
+    }
+    .project-tiles tr td{
+        vertical-align: middle;
+        margin: auto;
+        padding: 0px 10px 0px 0px;
+    }
+    .project-tiles tr td h1{
+        font-size: 1.25em;
+    }
+    .project-tiles tr td p{
+        font-size: .75em;
+        width: 75%;
+    }
+    
+    
+}
